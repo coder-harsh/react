@@ -1,0 +1,32 @@
+return m hum ek hi tag pass kr sakte hain. uske andr jitna bhi children rahe.
+
+
+like this return <div><h3>First Component</h3><p>Paragraph</p></div>
+
+format me
+
+return (
+        <div>
+            <h3>First Component</h3>
+            <p>Paragraph</p>
+        </div>
+    );
+
+
+
+    hum app.js ko main component rakhenege. usme app.js m jsx code nhi likehneg. direct subcomponent ko pass akrenge.
+     app.js ko clean rakhna chahiye.
+
+
+
+     jsx k tag m class is tarah lagete hain
+     <p className="red">This is a subcomponent</p>
+
+
+     jsx file ko import karte time .js import k time likhna not mandatory. but css ko import karte time mandatory h .css likhna 
+
+import './SubComponent.css'
+import Subcomponent from './components/SubComponent';  //SubComponent.js file import
+
+
+/* no need to write app.css as we only use app.js for main component for all subcomponent */
